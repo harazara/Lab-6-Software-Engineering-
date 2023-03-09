@@ -9,6 +9,8 @@ def print_menu():
     print("2. Decode")
     print("3. Quit")
     print()
+
+# hey
 def encode(password):
     for num in password:
         #turn password into int and add 3 then turn back into string
