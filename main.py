@@ -9,7 +9,7 @@ def print_menu():
     print("3. Quit")
     print()
 
-# hey
+
 def encode(password):
     new_pass = ""
     for num in password:
@@ -21,10 +21,12 @@ def encode(password):
 def main():
     while True:
         print_menu()
-        option1 = int(input("Please enter an option:"))
-        if option1 == 1:
+        option = int(input("Please enter an option:"))
+        if option == 1:
             encode1 = input("Please enter your password to encode:")
             print(encode(encode1))
+        elif option == 3:
+            break
     #print menu using while loop
     #ask for menu input
     #ask for password
