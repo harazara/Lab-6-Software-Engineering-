@@ -32,8 +32,10 @@ def main():
         if option1 == 1:
             encode1 = input("Please enter your password to encode:")
             print(encode(encode1))
-        if option1 == 2:
+        elif option1 == 2:
             print(decode(encode(encode1)))
+        elif option1 == 3:
+            break
     #print menu using while loop
     #ask for menu input
     #ask for password
